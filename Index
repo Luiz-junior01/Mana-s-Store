@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mana's Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf9f6;
+      color: #3d2b24;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.2em;
+      margin-top: 0;
+      margin-bottom: 2em;
+    }
+    .story {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 2em;
+    }
+    .testimonials {
+      font-style: italic;
+      margin-bottom: 2em;
+    }
+    .cta {
+      background-color: #8c6450;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .cta:hover {
+      background-color: #6d4d3b;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Estilo não grita. Impressiona.</h1>
+    <h2>Mana's Store é sobre elegância sem esforço. Roupas femininas casuais com presença.</h2>
+
+    <img src="manas.jpg" alt="Moda feminina elegante" />
+
+    <p class="story">
+      Sabe aquela peça que combina com tudo, valoriza quem veste e não sai de moda?<br /><br />
+      Aqui é o lugar.<br />
+      Mana's é feita pra mulheres que preferem sutileza ao exagero, e conforto à tendência passageira.<br />
+      Porque estilo de verdade é quando você se sente bem e isso aparece.
+    </p>
+
+    <div class="testimonials">
+      “Me senti elegante sem esforço. E recebi elogios o dia inteiro.” – Juliana, 38<br />
+      “É o tipo de roupa que você não quer tirar quando chega em casa.” – Rafaela, 27
+    </div>
+
+    <a class="cta" href="#">Ver Coleção</a>
+  </div>
+</body>
+</html>
